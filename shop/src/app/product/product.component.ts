@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from './product';
-declare let alertify : any;
+import { AlertifyService } from '../services/alertify.service';
 
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.css'],
+  // providers:[AlertifyService]
 })
 export class ProductComponent implements OnInit {
   title = "Product List";
-  filterText = "";
+  filterText = ""
   products : Product[] = [
     {
       id:1,
@@ -51,11 +52,11 @@ export class ProductComponent implements OnInit {
     description:"Huawei",
     imageUrl:"https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
   }];
-  constructor(){  
+  constructor(private alertService: AlertifyService){  
       
   }
   addToCart(product){
-    alertify.success(product.name+" added to cart!");
+    this.alertService.success(product.name+" added to cart!");
   }  
   ngOnInit() {
 
