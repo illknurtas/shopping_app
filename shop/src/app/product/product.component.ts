@@ -8,6 +8,7 @@ import { Product } from './product';
 })
 export class ProductComponent implements OnInit {
   title = "Product List";
+  filterText = "";
   products : Product[] = [
     {
       id:1,
@@ -52,6 +53,9 @@ export class ProductComponent implements OnInit {
   constructor(){  
       
   }
+  addToCart(product){
+    alert(product.name+" added to cart!");
+  }  
   ngOnInit() {
 
   }
