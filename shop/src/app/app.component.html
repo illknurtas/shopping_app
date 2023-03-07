@@ -1,9 +1,48 @@
-<app-nav></app-nav>
-<div class="row">
+<header class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Navbar</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-nav">
+    <div class="nav-item text-nowrap">
+      <a class="nav-link px-3" href="#">Sign out</a>
+    </div>
+  </div>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    <!-- <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style="">
+      <div class="position-sticky pt-3 sidebar-sticky">
+       
+      </div>
+    </nav> -->
+
+    <main class="col-md-12 ms-sm-auto col-lg-10 px-md-4"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-secondary" href="#">World</a>
+          <a class="p-2 link-secondary" href="#">U.S.</a>
+          <a class="p-2 link-secondary" href="#">Technology</a>
+          <a class="p-2 link-secondary" href="#">Design</a>
+          <a class="p-2 link-secondary" href="#">Culture</a>
+          <a class="p-2 link-secondary" href="#">Business</a>
+        </nav> 
+        <!-- <nav class="nav d-flex justify-content-between">
+          <app-category></app-category>
+        </nav> -->
+        
+      </div> 
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
+
+<!-- <app-nav></app-nav> -->
+<!-- <div class="row">
   <div class="col-3">
     <app-category></app-category>
   </div>
   <div class="col-9">
     <router-outlet></router-outlet>
   </div>
-</div>
+</div> -->
