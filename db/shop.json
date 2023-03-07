@@ -4,9 +4,9 @@
            "id":1,
            "name":"Laptop",
            "price": 780,
-           "categoryId":1,
+           "categoryId":3,
            "description":"HP",
-           "imageUrl":"https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60"
+           "imageUrl":"https://images.unsplash.com/photo-1523398845774-0d176ba6fd41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
         },
         { 
            "id":2,
@@ -20,7 +20,7 @@
            "id":1,
            "name":"Mouse",
            "price": 50,
-           "categoryId":3,
+           "categoryId":4,
            "description":"Logitech",
            "imageUrl":"https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
         },
@@ -28,7 +28,7 @@
             "id":2,
             "name":"Keyboard",
             "price":75,
-            "categoryId":3,
+            "categoryId":4,
             "description":"Logitech",
             "imageUrl":"https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
         },

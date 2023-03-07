@@ -3,6 +3,7 @@ import { Product } from './product';
 import { AlertifyService } from '../services/alertify.service';
 import { HttpClient } from '@angular/common/http';
 import { ProductService } from '../services/product.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-product',
@@ -16,7 +17,8 @@ export class ProductComponent implements OnInit {
   products : Product[];
 
   constructor(private alertService: AlertifyService,
-    private productService: ProductService){  
+    private productService: ProductService,
+    private activatedRoute: ActivatedRoute){  
       
   }
 
@@ -26,7 +28,12 @@ export class ProductComponent implements OnInit {
 
   // when components run the first time
   ngOnInit() {
-    this.productService.getProducts()
-    .subscribe(data => this.products = data);
+    
+    this.activatedRoute.params.subscribe(
+      params =>{
+         this.productService.getProducts(params["categoryId"])
+        .subscribe(data => {this.products = data});
+      }
+    )
   }
 }
