@@ -1,5 +1,5 @@
-<header class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Navbar</a>
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">E-commerce App</a>
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -11,38 +11,30 @@
 </header>
 <div class="container-fluid">
   <div class="row">
-    <!-- <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style="">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
       <div class="position-sticky pt-3 sidebar-sticky">
-       
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/products">
+              Store
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/add-product-1">
+              Add product - Classic
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/add-product-2">
+              Add product - Reactive
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav> -->
+    </nav>
 
-    <main class="col-md-12 ms-sm-auto col-lg-10 px-md-4"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-      <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          <a class="p-2 link-secondary" href="#">World</a>
-          <a class="p-2 link-secondary" href="#">U.S.</a>
-          <a class="p-2 link-secondary" href="#">Technology</a>
-          <a class="p-2 link-secondary" href="#">Design</a>
-          <a class="p-2 link-secondary" href="#">Culture</a>
-          <a class="p-2 link-secondary" href="#">Business</a>
-        </nav> 
-        <!-- <nav class="nav d-flex justify-content-between">
-          <app-category></app-category>
-        </nav> -->
-        
-      </div> 
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <router-outlet></router-outlet>
     </main>
   </div>
 </div>
-
-<!-- <app-nav></app-nav> -->
-<!-- <div class="row">
-  <div class="col-3">
-    <app-category></app-category>
-  </div>
-  <div class="col-9">
-    <router-outlet></router-outlet>
-  </div>
-</div> -->
