@@ -47,6 +47,14 @@
       "price": "100",
       "categoryId": "5",
       "id": 4
+    },
+    {
+      "name": "A game ",
+      "description": "Video game",
+      "imageUrl": "https://images.unsplash.com/photo-1677943774493-8813e0ef882b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "price": "150",
+      "categoryId": "1",
+      "id": 5
     }
   ],
   "categories": [
