@@ -12,6 +12,8 @@ import { ProductFilterPipe } from './product/product-filter.pipe';
 import { AlertifyService } from './services/alertify.service';
 import { AddProduct1Component } from './product/add-product1/add-product1.component';
 import { AddProduct2Component } from './product/add-product2/add-product2.component';
+import { LoginComponent } from './login/login.component';
+import { AccountService } from './services/account.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { AddProduct2Component } from './product/add-product2/add-product2.compon
     ProductComponent,
     ProductFilterPipe,
     AddProduct1Component,
-    AddProduct2Component
+    AddProduct2Component,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,7 @@ import { AddProduct2Component } from './product/add-product2/add-product2.compon
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [AlertifyService],
+  providers: [AlertifyService, AccountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
