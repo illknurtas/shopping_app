@@ -6,8 +6,13 @@
   </button> -->
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
-      <a class="nav-link px-3" routerLink="/login">
+      <a class="nav-link px-3" routerLink="/login"
+      *ngIf="isLoggedIn()==false">
         Login
+      </a>
+      <a class="nav-link px-3" (click)="logout()"
+      *ngIf="isLoggedIn()==true">
+        Log Out
       </a>
     </div>
   </div>
