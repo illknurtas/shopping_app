@@ -7,3 +7,7 @@ img{
     object-fit: cover;
     border-radius: 1rem;
 }
+.btn{
+    background-color: #85586F;
+    color: #F8EDE3;
+}

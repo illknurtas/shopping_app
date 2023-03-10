@@ -31,3 +31,9 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+button{
+  margin-left:18.50rem;
+
+  background-color: #85586F;
+  color: #DFD3C3;
+}

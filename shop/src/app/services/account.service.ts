@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { User } from '../login/user';
 
 @Injectable()
 export class AccountService {
@@ -7,7 +8,7 @@ export class AccountService {
 
   loggedIn = false;
 
-  login(user: User):boolean{
+  login(user:User):boolean{
     if(user.userName =="ilknur" && user.password=="123456"){
       return true;
       this.loggedIn = true;
