@@ -1,5 +1,6 @@
 .productbox{
     padding: 15px;
+    /* border-color: ; */
 }
 img{
     width: 15rem;
@@ -8,6 +9,10 @@ img{
     border-radius: 1rem;
 }
 .btn{
-    background-color: #85586F;
-    color: #F8EDE3;
+    background-color: #b98077;
+    color: #e6e1d9;
+}
+.btn:hover{
+    background-color:#e6e1d9;
+    color: #b98077;
 }

@@ -1,26 +1,18 @@
-html,
-body {
+form{
   height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
+  margin-top: 25%;
+  margin-left: 30%;
 }
 
 .form-signin {
   max-width: 330px;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 15px; */
 }
 
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}
-
-.form-signin input[type="email"] {
+.form-signin input[type="text"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -32,8 +24,10 @@ body {
   border-top-right-radius: 0;
 }
 button{
-  margin-left:18.50rem;
-
   background-color: #85586F;
   color: #DFD3C3;
+}
+button:hover{
+  background-color: #DFD3C3;
+  color: #85586F;
 }

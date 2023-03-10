@@ -3,18 +3,18 @@
     {
       "id": 1,
       "name": "Laptop",
-      "price": 780,
+      "price": 27800,
       "categoryId": 3,
-      "description": "HP",
-      "imageUrl": "https://images.unsplash.com/photo-1523398845774-0d176ba6fd41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+      "description": "Apple",
+      "imageUrl": "https://i.pinimg.com/564x/7a/84/57/7a8457168ae8ed6720175b88cdaf1219.jpg"
     },
     {
       "id": 2,
       "name": "Phone",
       "price": 3500,
       "categoryId": 2,
-      "description": "IPhone",
-      "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
+      "description": "Apple",
+      "imageUrl": "https://images.unsplash.com/photo-1544866092-1935c5ef2a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1vYmlsZSUyMHBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 1,
@@ -22,7 +22,7 @@
       "price": 50,
       "categoryId": 4,
       "description": "Logitech",
-      "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
+      "imageUrl":"https://i.pinimg.com/564x/64/9f/70/649f7053b9da4084f6d34fb84fb056d2.jpg"
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "price": 75,
       "categoryId": 4,
       "description": "Logitech",
-      "imageUrl": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+      "imageUrl": "https://i.pinimg.com/564x/65/1b/a6/651ba6dd32f06b18a88ae3a08fc46c90.jpg"
     },
     {
       "id": 2,
@@ -38,31 +38,39 @@
       "price": 3250,
       "categoryId": 2,
       "description": "Huawei",
-      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
+      "imageUrl": "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1vYmlsZSUyMHBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
-      "name": "LoL Game",
-      "imageUrl": "https://images.unsplash.com/photo-1677943774493-8813e0ef882b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-      "description": "An action video game ",
-      "price": "100",
-      "categoryId": "5",
-      "id": 4
-    },
-    {
-      "name": "A game ",
-      "description": "Video game",
-      "imageUrl": "https://images.unsplash.com/photo-1677943774493-8813e0ef882b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-      "price": "150",
-      "categoryId": "1",
-      "id": 5
-    },
-    {
-      "name": "kulaklık",
+      "name": "Earphones",
       "price": "590",
       "categoryId": "4",
-      "description": "kablosuz kulaklık",
+      "description": "Samsung",
       "imageUrl": "https://images.unsplash.com/photo-1628210889224-53b2e3082fc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
       "id": 6
+    },
+    {
+      "name": "Desktop",
+      "price": "6250",
+      "categoryId": "3",
+      "description": "Lenovo",
+      "imageUrl": "https://media.istockphoto.com/id/1435610171/tr/foto%C4%9Fraf/gamer-computer-desktop-with-rgb-lights-on-the-background-modern-pc-computer-white-screen.jpg?s=612x612&w=0&k=20&c=-Zy8PUek0ZfATUvmCK10dlOvS-CPf9n5XcinNKADXhw=",
+      "id": 7
+    },
+    {
+      "name": "Microphone",
+      "description": "Yamaha",
+      "imageUrl": "https://i.pinimg.com/564x/73/19/31/731931252f6aafd15930fe5c84ab7cc9.jpg",
+      "price": "2790",
+      "categoryId": "1",
+      "id": 8
+    },
+    {
+      "name": "FunGame",
+      "price": "375",
+      "categoryId": "5",
+      "description": "Kral Oyun",
+      "imageUrl": "https://i.pinimg.com/564x/45/db/3a/45db3a80df3dcdf209539977f6c2b390.jpg",
+      "id": 9
     }
   ],
   "categories": [
